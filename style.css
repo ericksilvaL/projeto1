@@ -2,5 +2,11 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: bisque;
+    background-color: black;
+    font-size: large;
+}
+
+h1 {
+    font-size: small;
+    background-color: blue;
 }
