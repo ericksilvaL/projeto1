@@ -1,0 +1,16 @@
+ls (OU dir NO WINDOWS) - lista todo diretorio atual selecionado
+ls -hidden - exibe arquivos escondidos
+cd + endereço da pasta - muda o diretorio escolhido
+ni (OU new-item) - cria uma nova pasta dentro do diretorio
+rm - deleta o arquivo selecionado
+rmdir - deleta o diretorio selecionado
+cd + .. - retorna uma pagina do diretorio, EXEMPLO: se estou em
+C:\Users\Pichau\Downloads\gitteste1, ao usar (cd ..) volto para
+C:\Users\Pichau\Downloads
+mkdir - cria um novo diretorio
+cat + nome do arquivo - exibe o que está escrito dentro do arquivo
+na tela do terminal
+mv + nome atual do arquivo + nome desejado - muda o nome do
+arquivo selecionado, EXEMPLO: se eu tenho o arquivo projeto1 e 
+utilizo mv projeto1 projeto001, o nome do arquivo agora é projeto001
+

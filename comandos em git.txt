@@ -1,0 +1,39 @@
+NOTA IMPORTANTE: Adicionar && apos um comando em git
+permite a utilizacao de mais comandos a seguir.
+EXEMPLO: para adicionar e commitar um unico arquivo, eu 
+precisaria dos seguintes comandos separados: git add <arquivo>
+e git commit -m "TEXTO". Utilizando a dica da nota, o comando é
+comprimido, se tornando git add <arquivo> && commit -m "TEXTO"
+
+git config --global user.name (ou user.email) - muda o nome ou 
+email registrado do usuario
+git config --global --list - mostra as informações registradas do 
+usuario no git
+git init - abre uma pasta .git no diretorio e inicia o repositorio
+git status - exibe a situacao do diretorio no git
+git branch --show-current - exibe em qual branch se encontra o
+diretorio atual
+git log - exibe o historico de alteracoes
+git log --oneline - mostra o historico de alteracoes de modo
+condensado e resumido
+
+NOTA IMPORTANTE: no git, existem 3 fases de um arquivo, sendo
+elas:
+MODIFIED: o arquivo esta sendo alterado
+STAGED: o arquivo esta pronto e selecionado
+COMMITED: o arquivo foi salvo (apenas salva os que estao na fase 
+de staged)
+
+COMANDOS REFERENTES A NOTA:
+git add (nome do arquivo) - poe o(s) arquivo(s) selecionado(s)
+em staged
+git add + . - poe todos os arquivos do diretorio em staged
+git rm --cached + NOME DO ARQUIVO - remove o arquivo da fase
+staged e volta para modified
+git commit -m - salva o modelo atual do arquivo e permite uma
+mensagem simples
+git commit - sem o -m, abre o editor VIM, possibilitando uma
+mensagem maior para o commit. APOS CONCLUIR A MENSAGEM
+UTILIZE ESC, ESCREVA O COMANDO :wq e APERTE ENTER PARA
+SALVAR O COMMIT
+
