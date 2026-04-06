@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    font-size: medium;
+}
+
+h1 {
+    font-size: large;
+    background-color: violet;
+}
