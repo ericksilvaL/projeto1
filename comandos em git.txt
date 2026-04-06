@@ -1,21 +1,32 @@
 NOTA IMPORTANTE: Adicionar && apos um comando em git
-permite a utilizacao de mais comandos a seguir.
+permite a utilizacao de mais comandos a seguir (concatenar)
 EXEMPLO: para adicionar e commitar um unico arquivo, eu 
 precisaria dos seguintes comandos separados: git add <arquivo>
-e git commit -m "TEXTO". Utilizando a dica da nota, o comando é
+e git commit -m "TEXTO". Utilizando a dica da nota, o comando eh
 comprimido, se tornando git add <arquivo> && commit -m "TEXTO"
 
 git config --global user.name (ou user.email) - muda o nome ou 
 email registrado do usuario
-git config --global --list - mostra as informações registradas do 
+git config --global --list - mostra as informacoes registradas do 
 usuario no git
 git init - abre uma pasta .git no diretorio e inicia o repositorio
 git status - exibe a situacao do diretorio no git
-git branch --show-current - exibe em qual branch se encontra o
-diretorio atual
 git log - exibe o historico de alteracoes
 git log --oneline - mostra o historico de alteracoes de modo
 condensado e resumido
+.gitignore - gera um arquivo onde todo nome de pasta que for
+escrito dentro dele sera ignorado pelo tracker do git
+git push
+
+git branch - cria uma copia ramificada do trabalho atual
+git branch -d + nome da branch - deleta a copia selecionada apos
+fundi-la a main
+git branch -D + nome da branch - o -D (maiusculo) faz a exclusao 
+forcada da copia em qualquer estagio
+git branch --show-current - exibe em qual branch se encontra o
+diretorio atual
+git checkout + nome da branch - permite trocar a branch atual
+para a selecionada
 
 NOTA IMPORTANTE: no git, existem 3 fases de um arquivo, sendo
 elas:
@@ -25,7 +36,7 @@ COMMITED: o arquivo foi salvo (apenas salva os que estao na fase
 de staged)
 
 COMANDOS REFERENTES A NOTA:
-git add (nome do arquivo) - poe o(s) arquivo(s) selecionado(s)
+git add + (nome do arquivo) - poe o(s) arquivo(s) selecionado(s)
 em staged
 git add + . - poe todos os arquivos do diretorio em staged
 git rm --cached + NOME DO ARQUIVO - remove o arquivo da fase

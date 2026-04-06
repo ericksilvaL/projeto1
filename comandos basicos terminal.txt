@@ -10,7 +10,7 @@ C:\Users\Pichau\Downloads
 mkdir - cria um novo diretorio
 cat + nome do arquivo - exibe o que está escrito dentro do arquivo
 na tela do terminal
-mv + nome atual do arquivo + nome desejado - muda o nome do
+mv (ou ren) + nome atual do arquivo + nome desejado - muda o nome do
 arquivo selecionado, EXEMPLO: se eu tenho o arquivo projeto1 e 
 utilizo mv projeto1 projeto001, o nome do arquivo agora é projeto001
 
